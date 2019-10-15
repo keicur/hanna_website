@@ -26,7 +26,7 @@
             <a class="nav-link js-scroll-trigger" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="/contact">Contact</a>
           </li>
         </ul>
         <ul class="nav navbar-nav m1-auto">
@@ -49,7 +49,7 @@
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow modal-image">
       </figure>
 
     </div>
@@ -57,123 +57,200 @@
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg2" class="modal-image" src="images/2.jpg" alt="">
+         <img src="images/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg3" class="modal-image" src="images/3.jpg" alt="">
+         <img src="images/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow modal-image">
+      </figure>
+
+    </div>
+  </div>
+  <div class="col-12 col-md-6 col-lg-3">
+    <div class="portfolio-content">
+      <figure >
+         <img src="images/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+         <img src="images/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
   <div class="col-12 col-md-6 col-lg-3">
     <div class="portfolio-content">
       <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
+        <img src="images/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow modal-image">
       </figure>
     </div>
   </div>
-  <div class="col-12 col-md-6 col-lg-3">
-    <div class="portfolio-content">
-      <figure >
-        <img id="myImg1" class="modal-image" src="images/1.jpg" alt="">
-      </figure>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/1.jpg" style="width:100%">
     </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/5.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/6.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/7.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/8.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/9.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/10.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/11.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/4.jpg" style="width:100%">
+    </div>
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
   </div>
 </div>
-<div id="myModal" class="modal">
 
-
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img1">
-  <img class="modal-content" id="img2">
-  <img class="modal-content" id="img3">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
 </div>
 </div>
 </div>
